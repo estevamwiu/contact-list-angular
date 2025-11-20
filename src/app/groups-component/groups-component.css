@@ -1,0 +1,68 @@
+.group-card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(12px);
+  transition: 0.25s ease;
+}
+
+.group-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.group-icon {
+  font-size: 42px;
+  color: #0d6efd;
+}
+
+.search-wrapper {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon i {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777;
+}
+
+.input-icon input {
+  padding-left: 38px;
+}
+
+.enhance {
+  border-radius: 10px;
+  background: #f8f8f8;
+  border: 1px solid #cfcfcf;
+  transition: 0.25s ease;
+}
+
+.enhance:focus {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.35);
+  transform: scale(1.02);
+}
+
+[data-bs-theme="dark"] .group-card,
+[data-bs-theme="dark"] .search-wrapper {
+  background: rgba(10, 10, 10, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #eee;
+}
+
+[data-bs-theme="dark"] .group-icon {
+  color: #4fa3ff;
+}
+
+[data-bs-theme="dark"] h6 {
+  color: #fff;
+}
+
+[data-bs-theme="dark"] .text-muted {
+  color: #bbb !important;
+}

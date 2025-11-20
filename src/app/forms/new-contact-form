@@ -1,0 +1,8 @@
+export interface NewContactForm {
+    name: string;
+    phone: number;
+    group: string;
+    email: string;
+    address: string;
+    notes: string;
+}

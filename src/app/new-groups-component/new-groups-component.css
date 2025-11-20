@@ -1,0 +1,79 @@
+.form-wrapper {
+  width: 100%;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  border-radius: 14px;
+}
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  font-size: 14px;
+}
+
+.input-icon input {
+  padding-left: 34px !important;
+}
+
+.enhance {
+  border-radius: 10px;
+  transition: 0.25s ease;
+  background: #f8f8f8;
+  border: 1px solid #cfcfcf;
+}
+
+.enhance:focus {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.35);
+}
+
+
+[data-bs-theme="dark"] .form-wrapper {
+  background: rgba(10, 10, 10, 0.92) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.85);
+}
+
+[data-bs-theme="dark"] .form-label {
+  color: #f0f0f0;
+}
+
+[data-bs-theme="dark"] .input-icon i {
+  color: #ccc;
+}
+
+[data-bs-theme="dark"] .enhance {
+  background: #1b1b1b;
+  border: 1px solid #444;
+  color: #eee;
+}
+
+[data-bs-theme="dark"] .enhance:focus {
+  box-shadow: 0 0 15px rgba(0, 150, 255, 0.55);
+}
+
+.no-hover-danger {
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+  color: white !important;
+}
+
+.no-hover-danger:hover,
+.no-hover-danger:focus,
+.no-hover-danger:active {
+  background-color: #c82333 !important;
+  border-color: #c82333 !important;
+  color: white !important;
+  box-shadow: none !important;
+}
