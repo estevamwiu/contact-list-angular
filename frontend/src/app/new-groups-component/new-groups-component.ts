@@ -18,9 +18,5 @@ export class NewGroupsComponent {
           description: ['']
         });
       }
-
-  save() {
-    alert(this.formGroupNewGroupForm.value);
-    this.groups.push(this.formGroupNewGroupForm.value);
-}}
+}
 

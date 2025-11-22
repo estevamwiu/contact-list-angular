@@ -1,4 +1,4 @@
-export interface NewGroupForm {
+export interface Group {
     name: string;
     description: string;
 }

@@ -1,0 +1,4 @@
+INSERT INTO TBL_CONTACT (ADDRESS, EMAIL, GROUP_NAME, NAME, NOTES, PHONE) VALUES ('Rua 1', 'f9Ej8@example.com', 'Grupo 1', 'João', 'Notas 1', '1234');
+INSERT INTO TBL_CONTACT (ADDRESS, EMAIL, GROUP_NAME, NAME, NOTES, PHONE) VALUES ('Rua 2', 'gOo5B@example.com', 'Grupo 2', 'Maria', 'Notas 2', '5678');
+INSERT INTO TBL_CONTACT (ADDRESS, EMAIL, GROUP_NAME, NAME, NOTES, PHONE) VALUES ('Rua 3', '7s1d5@example.com', 'Grupo 3', 'Pedro', 'Notas 3', '9012');
+INSERT INTO TBL_CONTACT (ADDRESS, EMAIL, GROUP_NAME, NAME, NOTES, PHONE) VALUES ('Rua 4', 'BfK4G@example.com', 'Grupo 4', 'Ana', 'Notas 4', '3456');

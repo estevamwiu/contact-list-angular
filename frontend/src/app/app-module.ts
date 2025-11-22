@@ -12,6 +12,7 @@ import { GroupsComponent } from './groups-component/groups-component';
 import { NewGroupsComponent } from './new-groups-component/new-groups-component';
 import { ContactComponent } from './contact-component/contact-component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     NgbModule,
     ReactiveFormsModule

@@ -3,6 +3,34 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "ContactListApplication",
+      "request": "launch",
+      "mainClass": "br.com.list.contact.services.ContactListApplication",
+      "projectName": "contact"
+    },
+    {
+      "type": "java",
+      "name": "ContactListApplication",
+      "request": "launch",
+      "mainClass": "br.com.list.contact.ContactListApplication",
+      "projectName": "contact"
+    },
+    {
+      "type": "java",
+      "name": "ContactApplication",
+      "request": "launch",
+      "mainClass": "br.com.list.contact.ContactApplication",
+      "projectName": "contact"
+    },
+    {
+      "type": "java",
+      "name": "ContactApplication",
+      "request": "launch",
+      "mainClass": "com.br.list.contact.ContactApplication",
+      "projectName": "contact"
+    },
+    {
       "name": "ng serve",
       "type": "chrome",
       "request": "launch",
